@@ -33,7 +33,6 @@ const handler = NextAuth({
                     session.user.id = sessionUser._id.toString();
                 }
                 /* 结束 */
-                //session.user.id = sessionUser._id.toString();
             } catch(error) {
                 console.log('error in session callback:',error);
             }         
